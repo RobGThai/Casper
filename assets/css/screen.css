@@ -736,6 +736,11 @@ margin on the iframe, cause it breaks stuff. */
     color: #50585D;
 }
 
+.post-content pre code {
+    overflow: auto;
+    word-wrap: normal;
+    white-space: pre;
+}
 
 /* ==========================================================================
    6. Tag archive
